@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6F777E757EBFBE36383C467E9A9972A8EE25F354",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6F777E757EBFBE36383C467E9A9972A8EE25F354" : 0,
+    "67A4A8299D5F4CE177E3810872B1E8C94ED92DAF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6E9CA0DE-0B01-40D2-93A1-945719D0728C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6F777E757EBFBE36383C467E9A9972A8EE25F354" : "%E4%BB%BF%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98%E9%A1%B5%E9%9D%A2\/",
+    "67A4A8299D5F4CE177E3810872B1E8C94ED92DAF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "仿支付宝支付页面",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "仿支付宝支付页面.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MarsCWD\/-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67A4A8299D5F4CE177E3810872B1E8C94ED92DAF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MarsCWD\/-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F777E757EBFBE36383C467E9A9972A8EE25F354"
+    }
+  ]
+}

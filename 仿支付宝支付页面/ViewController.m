@@ -25,7 +25,6 @@
     [btn setTitle:@"Show View" forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor blueColor];
     [btn addTarget:self action:@selector(showView) forControlEvents:UIControlEventTouchUpInside];
-    [btn sizeToFit];
     [self.view addSubview:btn];
 }
 
