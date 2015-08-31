@@ -12,7 +12,6 @@
 		B0C0E99C1B646A2D003C1EBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C0E99B1B646A2D003C1EBD /* ViewController.m */; };
 		B0C0E9A11B646A2D003C1EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C0E9A01B646A2D003C1EBD /* Assets.xcassets */; };
 		B0C0E9AF1B646A2D003C1EBD /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C0E9AE1B646A2D003C1EBD /* ________Tests.m */; };
-		B0C0E9BA1B646A2D003C1EBD /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C0E9B91B646A2D003C1EBD /* ________UITests.m */; };
 		B0C0E9D11B646D1C003C1EBD /* ORCustomNumberKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C0E9D01B646D1C003C1EBD /* ORCustomNumberKeyboardView.m */; };
 		B0C0E9D41B646D4E003C1EBD /* ORSimulateAlipayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C0E9D31B646D4E003C1EBD /* ORSimulateAlipayView.m */; };
 		B0C0E9D81B646FAB003C1EBD /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C0E9D71B646FAB003C1EBD /* UIView+Layout.m */; };
@@ -20,13 +19,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		B0C0E9AB1B646A2D003C1EBD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0C0E9891B646A2D003C1EBD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B0C0E9901B646A2D003C1EBD;
-			remoteInfo = "仿支付宝支付页面";
-		};
-		B0C0E9B61B646A2D003C1EBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B0C0E9891B646A2D003C1EBD /* Project object */;
 			proxyType = 1;
@@ -47,7 +39,6 @@
 		B0C0E9AA1B646A2D003C1EBD /* 仿支付宝支付页面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿支付宝支付页面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C0E9AE1B646A2D003C1EBD /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
 		B0C0E9B01B646A2D003C1EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0C0E9B51B646A2D003C1EBD /* 仿支付宝支付页面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿支付宝支付页面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C0E9B91B646A2D003C1EBD /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		B0C0E9BB1B646A2D003C1EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0C0E9CF1B646D1C003C1EBD /* ORCustomNumberKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCustomNumberKeyboardView.h; sourceTree = "<group>"; };
@@ -73,13 +64,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0C0E9B21B646A2D003C1EBD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,7 +82,6 @@
 			children = (
 				B0C0E9911B646A2D003C1EBD /* 仿支付宝支付页面.app */,
 				B0C0E9AA1B646A2D003C1EBD /* 仿支付宝支付页面Tests.xctest */,
-				B0C0E9B51B646A2D003C1EBD /* 仿支付宝支付页面UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,24 +186,6 @@
 			productReference = B0C0E9AA1B646A2D003C1EBD /* 仿支付宝支付页面Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B0C0E9B41B646A2D003C1EBD /* 仿支付宝支付页面UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B0C0E9C41B646A2D003C1EBD /* Build configuration list for PBXNativeTarget "仿支付宝支付页面UITests" */;
-			buildPhases = (
-				B0C0E9B11B646A2D003C1EBD /* Sources */,
-				B0C0E9B21B646A2D003C1EBD /* Frameworks */,
-				B0C0E9B31B646A2D003C1EBD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B0C0E9B71B646A2D003C1EBD /* PBXTargetDependency */,
-			);
-			name = "仿支付宝支付页面UITests";
-			productName = "仿支付宝支付页面UITests";
-			productReference = B0C0E9B51B646A2D003C1EBD /* 仿支付宝支付页面UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,10 +200,6 @@
 						DevelopmentTeam = 8JXVLBT9BK;
 					};
 					B0C0E9A91B646A2D003C1EBD = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = B0C0E9901B646A2D003C1EBD;
-					};
-					B0C0E9B41B646A2D003C1EBD = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = B0C0E9901B646A2D003C1EBD;
 					};
@@ -259,7 +220,6 @@
 			targets = (
 				B0C0E9901B646A2D003C1EBD /* 仿支付宝支付页面 */,
 				B0C0E9A91B646A2D003C1EBD /* 仿支付宝支付页面Tests */,
-				B0C0E9B41B646A2D003C1EBD /* 仿支付宝支付页面UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,13 +234,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B0C0E9A81B646A2D003C1EBD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0C0E9B31B646A2D003C1EBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,14 +264,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0C0E9B11B646A2D003C1EBD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0C0E9BA1B646A2D003C1EBD /* ________UITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -326,11 +271,6 @@
 			isa = PBXTargetDependency;
 			target = B0C0E9901B646A2D003C1EBD /* 仿支付宝支付页面 */;
 			targetProxy = B0C0E9AB1B646A2D003C1EBD /* PBXContainerItemProxy */;
-		};
-		B0C0E9B71B646A2D003C1EBD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B0C0E9901B646A2D003C1EBD /* 仿支付宝支付页面 */;
-			targetProxy = B0C0E9B61B646A2D003C1EBD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -465,30 +405,6 @@
 			};
 			name = Release;
 		};
-		B0C0E9C51B646A2D003C1EBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "仿支付宝支付页面UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Mars.--------UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "仿支付宝支付页面";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		B0C0E9C61B646A2D003C1EBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "仿支付宝支付页面UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Mars.--------UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "仿支付宝支付页面";
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -515,15 +431,6 @@
 			buildConfigurations = (
 				B0C0E9C21B646A2D003C1EBD /* Debug */,
 				B0C0E9C31B646A2D003C1EBD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B0C0E9C41B646A2D003C1EBD /* Build configuration list for PBXNativeTarget "仿支付宝支付页面UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B0C0E9C51B646A2D003C1EBD /* Debug */,
-				B0C0E9C61B646A2D003C1EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
